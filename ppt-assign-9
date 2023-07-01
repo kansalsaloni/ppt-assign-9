@@ -1,0 +1,643 @@
+Q1-=> <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+ANS=>No, <!DOCTYPE html> is not a tag in HTML. It is called a doctype declaration or document type declaration, and
+it is used to specify the version of HTML or XHTML that the web page is written in.The <!DOCTYPE html> declaration is used for HTML5, which is the latest version of HTML.
+It informs the web browser about the version of HTML being used, allowing it to render the page correctly. 
+The HTML5 doctype declaration is recommended for all modern web pages because it triggers standards mode in web browsers, ensuring consistent and predictable rendering.
+Including the doctype declaration at the beginning of an HTML document is considered good practice and is necessary for adhering to web standards.
+It helps ensure that the web page is interpreted correctly by browsers and other HTML parsers.
+
+###################################################################################################################################################
+
+Q2=>Explain Semantic tags in html? And why do we need it?
+ANS=>Semantic tags in HTML are special HTML elements that carry meaning and provide context to the content within them. 
+They describe the structure and purpose of the content, making it more meaningful and accessible for both humans and machines. 
+Semantic tags convey the intended meaning of the content rather than just specifying how it should be styled.
+Here are some commonly used semantic tags in HTML5:
+<header>,<footer>,<article> etc.
+
+###################################################################################################################################################
+
+Q3=>Differentiate between HTML Tags and Elements?
+ANS=>HTML Tags:
+Tags are the building blocks of HTML markup.
+They are used to define the structure and elements of a web page.
+Tags are represented by angle brackets (< and >) and surround the content they affect.
+Examples of HTML tags: <h1>, <p>, <div>, <img>, <a>, <table>, etc.
+
+HTML Elements:
+Elements are made up of tags and the content between them.
+An element consists of an opening tag, content, and a closing tag.
+The opening tag denotes the start of an element, while the closing tag marks its end.
+The content is the text, images, or other elements nested within the tags.
+Elements can be nested inside other elements, forming a hierarchical structure.
+###################################################################################################################################################
+Q4=>Build Your Resume using HTML only
+ANS=><!DOCTYPE html>
+<html>
+<head>
+<title>Resume template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Saloni kansal</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Fresher</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Ghazibad, UP</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>salonikansal789@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>9557322XXX</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>c++,java</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">80%</div>
+          </div>
+          <p>HTML,CSS,Javascript</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>NodeJs,ExpressJs</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">70%</div>
+          </div>
+          <p>Mongodb</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">80%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Hindi</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Junior Software Engoineer</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2022 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Working as a independent and team work in a project.</p>
+          <hr>
+        </div>
+      
+        
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>RD.Engineering College</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019-2023</h6>
+          <p>B.TECH</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>GREEN LAND ACADEMY</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018-2019</h6>
+          <p>INTERMEDIATE</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Green Land Academy</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016-2017</h6>
+          <p>HIGH SCHOOL</p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Achivement</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>4 College Rank in codekaze2023 </b></h5>
+              <h5 class="w3-opacity"><b>Therotical and practical by Sololearn</b></h5>
+               <h5 class="w3-opacity"><b> </b></h5>
+        </div>
+      
+        
+      </div>
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">SALONI KANSAL</a></p>
+</footer>
+
+</body>
+
+</html>
+###################################################################################################################################################
+Q5=>Write HTML code so that it looks like the below image
+ANS=>
+<html>
+<head>
+.list{
+display:flex;
+flex-direction: row;
+}
+.list li{
+list-decoration :none;
+}
+.lists{
+ list-style-type: circle;
+}
+</head>
+<body>
+  <div>
+      <img src="computer.png" width="400px" height="400px">
+  </div>
+  <div>
+     <p>We will learn the following things this week:</p>
+  </div>
+  <div class="list">
+     <ul>
+  <li>Day 1</li>
+  <li>Day 2</li>
+  <li>Day 3</li>
+  <li>Day 4</li>
+</ul>
+  </div>
+    <div class="list">
+     <ul>
+  <li>Linux 1</li>
+  <li>HTML</li>
+  <li>Linux 2</li>
+  <li>Linux 3</li>
+</ul>
+  </div>
+    <div class="list">
+     <ul>
+  <li> Git 1</li>
+  <li>CSS=/li>
+  <li>Git 2</li>
+  <li>Bootstrap</li>
+</ul>
+  </div>
+  <div>
+     <p>If you want to contact me so please fill this form:</p>
+  </div>
+  <div>
+     
+     <form>
+     <div>
+      <label > Name</label> 
+        <input name="name"  class="form-control"  type="text">
+        </div>
+         <div>
+      <label > Contact No</label> 
+        <input name="number" class="form-control"  type="text">
+        </div>
+         <div>
+      <label > Email Id</label> 
+        <input name="email"  class="form-control"  type="text">
+        </div>
+     </form>
+  </div>
+   <div>
+     <h3>The follwowing thiogs are important to be programmer:</h3>
+  </div>
+   <div class="lists">
+     <ul>
+  <li>A problem solving skills</li>
+  <li>Consistency
+   <ul>
+      <li>Clean Code</li>
+      <li>Thorough knowledge of your core concept</li>
+       <li>Readable Code</li>
+    </ul></li>
+  
+  <li>Speed</li>
+</ul>
+  </div>
+</body>
+</html>
+###################################################################################################################################################
+Q6=>What are some of the advantages of HTML5 over its previous versions?
+ANS=>
+Improved Semantics: HTML5 introduced a set of semantic elements such as <header>, <nav>, <section>, and <footer>, making it easier to define the structure and meaning of different parts of a web page. This enhances accessibility, SEO, and code readability.
+
+Rich Multimedia Support: HTML5 brought native support for multimedia elements, eliminating the need for third-party plugins like Flash. It introduced the <video> and <audio> elements, allowing seamless integration of video and audio content into web pages.
+
+Canvas API: HTML5 introduced the <canvas> element and the associated JavaScript Canvas API. This powerful feature enables dynamic rendering of graphics, animations, and visualizations directly within the browser without relying on external plugins.
+
+Geolocation: HTML5 introduced the Geolocation API, enabling websites to retrieve a user's geographical location information. This capability allows for location-based services, such as finding nearby businesses or providing personalized content based on the user's location.
+
+Offline Web Applications: HTML5 introduced the Application Cache and Web Storage APIs, enabling web applications to work offline and store data locally. This enhances the user experience by allowing them to access and use web applications even without an internet connection.
+###################################################################################################################################################
+Q7=>Create a simple Music player using html only
+ANS=>HTML FILE
+<a href="https://www.youtube.com/channel/UCpOAe47k4uLjemSBTiAEk2g?sub_confirmation=1" target="_blank"><img id='img' align="right" src="https://yt3.googleusercontent.com/EJfnBM8DfmXQxTHpWNJeE8GHhRxFDmNLZ_b6iXZq6zpfy95h_FM2vTu8iK8uHTLBhdY9rF1jSg=s88-c-k-c0x00ffffff-no-rj" alt="Hackway"></a>
+
+<div class="player">
+  <div class="audio-container">
+
+    <center><img border="0" height="250" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmmHd2MewCfa-fOSe4ooZLScrr0BdlAt2Nqw19Tnt8qf-A7N0R5XdUEM_CkAIyqPVrvcAhvb71wIGWdUQf_w83WsnsyQpD_Bl09vGhM6OCJTRB3iCa-RH-0hIA8hoGP6AB2YBLqazMKEIGS7v9Nd61HQA4p2xqSOxUEiTr_ujTTOPDHG0kUWdIkDw/s320/Donate%20Us.png" /></center>
+
+    <audio id="audio-player"></audio>
+  </div>
+  <div class="controls">
+    <button id="play-btn">Play<i class="fa fa-play"></i></button>
+    <button id="pause-btn">Pause<i class="fa fa-pause"></i></button>
+    <button id="prev-btn">Backward<i class="fa fa-step-backward"></i></button>
+    <button id="next-btn">Next<i class="fa fa-step-forward"></i></button>
+    <button id="repeat-btn">Repeat<i class="fa fa-repeat"></i></button>
+    <input id="volume-control" type="range" min="0" max="1" step="0.1" value="1">
+  </div>
+  <div class="playlist">
+    <ul id="playlist-items">
+      <li data-src="https://dl.sndup.net/spts/Super%20rai%20morale.mp3">Super rai morale</li>
+      <li data-src="https://assets.codepen.io/4927073/yt5s.io+-+Post+Malone+-+I+Cannot+Be+%28A+Sadder+Song%29+%28Audio%29+ft.+Gunna+%28128+kbps%29.mp3">Post Malone Ft. Gunna
+      </li>
+      <li data-src="https://assets.codepen.io/4927073/yt5s.io+-+Justin+Bieber+-+Honest+%28feat.+Don+Toliver%29+%28Official+Lyric+Video%29+%28128+kbps%29.mp3">HONEST</li>
+      <li data-src="https://mp3.filmisongs.com/go.php?id=Damn%20Song%20Raftaar%20Ft%20KrSNa.mp3">Damn</li>
+      <li data-src="https://assets.codepen.io/4927073/yt5s.io+-+Young+Thug+-+Love+You+More+%28with+Nate+Ruess%2C+Gunna+%26+Jeff+Bhasker%29+-Official+Audio-+%28128+kbps%29.mp3">Young Thug</li>
+      <li data-src="https://www.dropbox.com/s/umam9olakop001d/stay.mp3">Stay</li>
+      <!--       <li data-src="https://cdns-preview-9.dzcdn.net/stream/c-94e53a428fd9dbf35c5b06d800447c2a-4.mp3">Senden Baska</li> -->
+      <li data-src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/Post%20Malone%20-%20rockstar%20ft.%2021%20Savage%20(1).mp3">Rockstar</li>
+      <li data-src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/NF%20-%20Let%20You%20Down.mp3">Let You Down</li>
+      <li data-src="https://yildirimzlm.s3.us-east-2.amazonaws.com/Lil+Nas+X+-+MONTERO+(Call+Me+By+Your+Name)+(Lyrics).mp3">MONTERO (Call Me By Your Name)
+      </li>
+      <li data-src="https://heisjssan.com/wp-content/uploads/2021/09/JSSAN-NO-NO-MP3-1.mp3">Jssan (NoNo)</li>
+      <li data-src="https://heisjssan.com/wp-content/uploads/2022/10/JSSAN-OKAY-jssanbusinesses@gmail.com-.mp3">Jssan
+        (Okay)</li>
+      <li data-src="https://dls.music-fa.com/tagdl/1401/Mohsen%20Ebrahimzade%20-%20Rafti%20(128).mp3">Rafti</li>
+      <li data-src="https://dl.sndup.net/spts/Super%20rai%20morale.mp3">Song 10</li>
+    </ul>
+  </div>
+</div>
+
+CSS FILE:
+/* Audio Player Styles */
+body {
+  background-color: black;
+}
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.audio-container {
+  position: relative;
+  width: 80%;
+}
+
+audio {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5px 10px;
+  height: 100px;
+}
+
+button,
+#repeat-btn {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 10px;
+  margin: 2px 2px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.fa {
+  margin-left: 5px;
+}
+
+input[type="range"] {
+  width: 71%;
+  margin: 0 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #333;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 16px;
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+
+.playlist {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #dcdcdc;
+}
+
+.active {
+  background-color: #333;
+  color: #fff;
+}
+#img {
+  border-radius: 50%;
+}
+
+/* #repeat-btn {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 10px;
+  margin: 2px 2px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+} */
+
+#repeat-btn.active {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+JAVASCRIPT FILE:
+const audioPlayer = document.getElementById("audio-player");
+const playBtn = document.getElementById("play-btn");
+const pauseBtn = document.getElementById("pause-btn");
+const prevBtn = document.getElementById("prev-btn");
+const nextBtn = document.getElementById("next-btn");
+const volumeControl = document.getElementById("volume-control");
+const playlistItems = document.querySelectorAll("#playlist-items li");
+
+let currentTrack = 0;
+
+function loadTrack() {
+  audioPlayer.src = playlistItems[currentTrack].getAttribute("data-src");
+  audioPlayer.load();
+}
+
+function playTrack() {
+  audioPlayer.play();
+}
+
+function pauseTrack() {
+  audioPlayer.pause();
+}
+
+function nextTrack() {
+  currentTrack++;
+  if (currentTrack > playlistItems.length - 1) {
+    currentTrack = 0;
+  }
+  loadTrack();
+  playTrack();
+  setActiveTrack();
+}
+
+function prevTrack() {
+  currentTrack--;
+  if (currentTrack < 0) {
+    currentTrack = playlistItems.length - 1;
+  }
+  loadTrack();
+  playTrack();
+  setActiveTrack();
+}
+
+function setVolume() {
+  audioPlayer.volume = volumeControl.value;
+}
+
+function setActiveTrack() {
+  playlistItems.forEach((item) => {
+    item.classList.remove("active");
+  });
+  playlistItems[currentTrack].classList.add("active");
+}
+
+function playNextTrack() {
+  if (currentTrack < playlistItems.length - 1) {
+    nextTrack();
+  } else {
+    currentTrack = 0;
+    loadTrack();
+    playTrack();
+    setActiveTrack();
+  }
+}
+
+audioPlayer.addEventListener("ended", playNextTrack);
+
+loadTrack();
+
+playBtn.addEventListener("click", playTrack);
+pauseBtn.addEventListener("click", pauseTrack);
+nextBtn.addEventListener("click", nextTrack);
+prevBtn.addEventListener("click", prevTrack);
+volumeControl.addEventListener("input", setVolume);
+
+playlistItems.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    currentTrack = index;
+    loadTrack();
+    playTrack();
+    setActiveTrack();
+  });
+});
+
+const repeatBtn = document.getElementById("repeat-btn");
+let isRepeat = false;
+
+function toggleRepeat() {
+  isRepeat = !isRepeat;
+  repeatBtn.classList.toggle("active", isRepeat);
+}
+
+function playNextTrack() {
+  if (isRepeat) {
+    loadTrack();
+    playTrack();
+    setActiveTrack();
+  } else if (currentTrack < playlistItems.length - 1) {
+    nextTrack();
+  } else {
+    currentTrack = 0;
+    loadTrack();
+    playTrack();
+    setActiveTrack();
+  }
+}
+
+repeatBtn.addEventListener("click", toggleRepeat);
+audioPlayer.addEventListener("ended", playNextTrack);
+
+###################################################################################################################################################
+Q8=>What is the difference between <figure> tag and <img> tag?
+ANS=><img> Tag:
+
+The <img> tag is a self-closing tag used to embed an image into an HTML document.
+It represents a standalone image element on a web page.
+The <img> tag requires a src attribute that specifies the source (URL) of the image file.
+It may also include optional attributes like alt (alternate text), width, height, etc., to provide additional information or control the image's display.
+Example usage: <img src="image.jpg" alt="Description of the image">
+<figure> Tag:
+
+The <figure> tag is used to encapsulate and group together self-contained content, such as images, illustrations, diagrams, code snippets, etc.
+It provides a semantic container for the content within, along with an optional caption.
+The <figure> tag is often used in conjunction with the <figcaption> tag to add a caption to the content.
+###################################################################################################################################################
+Q9=>What’s the difference between html tag and attribute and give example of some global attributes?
+ANS=>HTML Tags:
+
+HTML tags define the structure and semantic meaning of the content within an HTML document.
+Tags are enclosed in angle brackets (< and >) and come in pairs: opening tags and closing tags.
+Opening tags indicate the start of an HTML element, while closing tags mark its end.
+Example: <p>This is a paragraph.</p>
+HTML Attributes:
+
+HTML attributes provide additional information and modify the behavior of HTML elements.
+Attributes are placed within the opening tag of an HTML element and consist of a name-value pair.
+Attributes provide instructions to browsers, define element properties, or specify behavior.
+Example: <img src="image.jpg" alt="Description">
+Global attributes are attributes that can be used with any HTML element. They are not specific to a particular tag or element. Here are some examples of global attributes:
+
+class: Specifies one or more CSS class names to apply to an element, allowing for styling and JavaScript interactions.
+Example: <div class="container">...</div>
+
+id: Provides a unique identifier for an element, often used for styling or JavaScript manipulation.
+Example: <h1 id="title">Page Title</h1>
+
+style: Defines inline CSS styles to be applied to an element, allowing for direct styling.
+Example: <p style="color: red;">This is some text.</p>
+###################################################################################################################################################
+Q10=>Write Html code so that it looks like the below image 
+ANS=><!DOCTYPE html>
+<html>
+<head>
+
+<title>HTML Table Cellpadding</title>
+</head>
+
+<body >
+<table border="1" cellpadding="5" cellspacing="5" align="center" height="400" width="700">
+
+<tr>
+<th rowspan="3" ><font size="50px">day</font></th>
+<th colspan="3">seminar</th></tr>
+<tr>
+<th colspan="2">schedule</th>
+<th rowspan="2">topic</th>
+<tr>
+<th>begin</th><th>end</th>
+</tr>
+
+<tr>
+<td rowspan="2">Monday</td>
+<td rowspan="2">8:00 a.m.</td>
+<td rowspan="2" >5:00 p.m.</td>
+<td >Introduction to XML</td>
+<tr><td >Validity: DTD and Relax NG</td>
+
+<tr>
+<td rowspan="3">Tuesday</td>
+<td >8:00 a.m.</td>
+<td ">11:00 a.m.</td>
+<td >XPath</td><tr>
+<td >11:00 a.m.</td>
+<td > 2:00 p.m.</td>
+<td rowspan="2"> XSL Transformatics</td>
+<tr><td >2:00 p.m.</td>
+<td>5:00 p.m.</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+<td>8:00 a.m.</td>
+<td>12:00 p.m.</td>
+<td>XSL Formatting Objects</td>
+</tr>
+
+</table>
+<p align="center "><font size="20px"> Table By-Ghanendra Yadav</>
+</body>
+
+</html>
